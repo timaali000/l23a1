@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array in JS</title>
+    </head>
+</html>
+<body>
+    <h1>Arrays in Javascript</h1>
+    <p id="result1"></p>
+    <p id="result2"></p>
+<script>
+
+    var fruits=["Apple" , "Banana" , "Mango" , "Orange" , "Pineapple"];
+
+    document.getElementById("result1").innerHTML = "fruits: " + fruits;
+    document.getElementById("result2").innerHTML = "length: " + fruits.length
+    var result = document.getElementById("result1");
+    result.innerHTML = fruits;
+    fruits.length= document.getElementById("result2");
+    result.innerHTML = fruits.length;
+</script>
+    </body>
